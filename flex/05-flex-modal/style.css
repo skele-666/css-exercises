@@ -54,16 +54,51 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 15px;
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-right: 3px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+#box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  width: 100%;
+}
+
+.header > div {
+  display: flex;
+  gap: 15px;
+}
+
+.header p {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.modal {
+  padding: 20px;
+}
+
+.text {
+  display: flex;
+  flex: 0.5 1.5 auto;
 }
